@@ -9,7 +9,7 @@ interface DataParams {
 }
 
 export async function GET(req: NextRequest, { params }: DataParams) {
-  await new Promise((resolve) => setTimeout(resolve, 1000))
+  await new Promise((resolve) => setTimeout(resolve, 3000))
 
   const { searchParams } = req.nextUrl
 
