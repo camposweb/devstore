@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![cover](public/cover.png)
 
-## Getting Started
+# Fundamentos Next.js com APP Router
 
-First, run the development server:
+Projeto com o propósito de mostrar a nova arquitetura do Next.js, onde os projetos são criados a partir do APP Router, no qual existe várias novas funcionalidades que deixa o desenvolvimento das  aplicações mais simples, com isso houver algumas modificações, tai como o arquivo layout.tsx, para criar um padrão visão de cada conjunto de páginas, o arquivo page.tsx pra os arquivos de páginas e o loading.tsx para páginas de carregamento enquanto o conteúdo da página não renderiza, além disso foi menciona sobre server components, onde podemos realizar requisições a assíncronas direto do componente. Somando a isso tudo também aprendi questões de metadados estáticos e dinâmicos e geração de páginas estáticas para um carregamento da página quase que instantâneo.
 
-```bash
+
+## Tecnologias Utilizadas
+
+![React Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge)
+![Next.js Badge](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge)
+![Zod Badge](https://img.shields.io/badge/Zod-3E67B1?logo=zod&logoColor=fff&style=for-the-badge)
+![Tailwind CSS Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=for-the-badge)
+
+## Inicializar a aplicação:
+
+Para inicializar a aplicação utilizar os comandos
+```javascript
+npm install
 npm run dev
-# or
+
+	or
+
+yarn install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
